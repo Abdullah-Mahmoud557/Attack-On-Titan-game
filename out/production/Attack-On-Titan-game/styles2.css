@@ -1,0 +1,31 @@
+.button {
+    -fx-background-color: green;
+    -fx-border-color: cyan;
+    -fx-border-width: 3px;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-padding: 10px 24px;
+    -fx-effect: dropshadow(three-pass-box, #999, 9, 0.0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #001e80;
+    -fx-effect: dropshadow(three-pass-box, #666666, 5, 0.0, 0, 0);
+    -fx-translate-y: 4px;
+}
+/* Styling for ComboBox */
+.combo-box {
+    -fx-background-color: green;
+    -fx-border-color: cyan;
+    -fx-border-width: 3px;
+
+    -fx-font-size: 16px;
+    -fx-padding: 10px 24px;
+}
+
+.combo-box:hover {
+    -fx-background-color: #6f8000;
+    -fx-effect: dropshadow(three-pass-box, #666666, 5, 0.0, 0, 0);
+}
