@@ -67,6 +67,27 @@ Special Weapon Type:
 
 ## Setup Instructions
 
+### Prerequisites
+
+Ensure you have the following installed on your system:
+- **Java Development Kit (JDK) 1.8**
+- **JavaFX**
+
+### Installing JDK 1.8
+
+1. **Download JDK 1.8:**
+   - Visit the [Oracle JDK Download Page](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html).
+   - Download the appropriate installer for your operating system.
+
+2. **Install JDK 1.8:**
+   - Run the installer and follow the on-screen instructions to complete the installation.
+
+3. **Set JAVA_HOME Environment Variable:**
+   - Set the `JAVA_HOME` environment variable to point to the JDK 1.8 installation directory.
+   - Add the `bin` directory of the JDK installation to your system's `PATH` environment variable.
+
+### Clone and Setup Project
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/MostafaAhmed556/Attack-On-Titan-game.git
