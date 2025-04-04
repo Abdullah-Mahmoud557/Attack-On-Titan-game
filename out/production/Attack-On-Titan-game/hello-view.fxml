@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="root" fx:id="root" alignment="CENTER" spacing="10" stylesheets="@styles.css" xmlns:fx="http://javafx.com/fxml">
+   <Button text="Play" fx:id="playButton" styleClass="button" />
+   <Button text="How to Play" fx:id="howToPlayButton" styleClass="button" />
+   <Button text="Info" fx:id="infoButton" styleClass="button" />
+   <Button text="Settings" fx:id="settingsButton" styleClass="button" />
+   <Button text="Exit" fx:id="exitButton" styleClass="button" />
+</VBox>
